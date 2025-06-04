@@ -2,6 +2,7 @@
   "name": "library",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://lincydiyo.github.io/RestaurentWebsite",
   "dependencies": {
     "axios": "^1.7.9",
     "bootstrap": "^5.3.3",
@@ -37,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
