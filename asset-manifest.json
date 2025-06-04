@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/RestaurentWebsite/static/css/main.816ceb85.css",
-    "main.js": "/RestaurentWebsite/static/js/main.37710b11.js",
+    "main.js": "/RestaurentWebsite/static/js/main.cecce9b1.js",
     "static/js/488.712c729a.chunk.js": "/RestaurentWebsite/static/js/488.712c729a.chunk.js",
     "static/media/cookies.png": "/RestaurentWebsite/static/media/cookies.25e6cba70ea5d2c3fe1a.png",
     "static/media/chickenBiriyani.webp": "/RestaurentWebsite/static/media/chickenBiriyani.9d815308a3d708e214a3.webp",
@@ -34,11 +34,11 @@
     "static/media/payment.webp": "/RestaurentWebsite/static/media/payment.fbef8beac58e58b4c4ce.webp",
     "index.html": "/RestaurentWebsite/index.html",
     "main.816ceb85.css.map": "/RestaurentWebsite/static/css/main.816ceb85.css.map",
-    "main.37710b11.js.map": "/RestaurentWebsite/static/js/main.37710b11.js.map",
+    "main.cecce9b1.js.map": "/RestaurentWebsite/static/js/main.cecce9b1.js.map",
     "488.712c729a.chunk.js.map": "/RestaurentWebsite/static/js/488.712c729a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.816ceb85.css",
-    "static/js/main.37710b11.js"
+    "static/js/main.cecce9b1.js"
   ]
 }
