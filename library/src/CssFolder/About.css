@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.About {
+  background: linear-gradient(135deg, #f9fbe7, #4dae89);
+  padding: 50px 20px;
+}
+
+.About h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #222;
+  text-align: center;
+    margin-bottom: 10px;
+}
+.About p{
+ font-size: 1rem;
+  color: #444;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.About span {
+  color: red;
+}
+
+.About .about-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+
+.About .about-section h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.About .about-section p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.About .about-section img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: auto;
+    border-radius: 10px;
+}
+.About .card {
+  margin-bottom: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.222);
+  transition: transform 0.3s ease;
+}
+
+.About .card:hover {
+  transform: scale(1.03);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.803);
+
+}
+.workingDiv h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  color: #222;
+}
+
+.working-carousel {
+  max-width: 400px;
+  margin: auto;
+}
+
+.carousel-step {
+  text-align: center;
+  padding: 20px;
+}
+
+.carousel-step img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.carousel-step img:hover {
+  transform: scale(1.05);
+}
+
+.carousel-step h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #222;
+}
+
+
+/* Responsive Style */
+@media (max-width: 768px) {
+  .About h1 {
+    font-size: 2rem;
+  }
+
+  .About .card {
+    margin-bottom: 25px;
+  }
+    .Working {
+    gap: 20px;
+  }
+
+  .Working .step {
+    flex: 1 1 45%;
+    max-width: 45%;
+  }
+
+  .Working img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .Working h5 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .About {
+    padding: 30px 15px;
+  }
+
+  .About h1 {
+    font-size: 1.8rem;
+  }
+
+  .About .card {
+    margin-bottom: 20px;
+  }
+
+  .About .card-img-top {
+    height: auto;
+  }
+ 
+
+ .carousel-step img {
+    width: 130px;
+    height: 130px;
+  }
+
+  .carousel-step h5 {
+    font-size: 1rem;
+  }
+
+  .workingDiv h1 {
+    font-size: 2rem;
+  }
+}

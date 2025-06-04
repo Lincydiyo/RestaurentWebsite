@@ -1,0 +1,191 @@
+/* Reset defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Main menu container */
+.Menu {
+  background: linear-gradient(135deg, #f9fbe7, #4dae89);
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+/* Headings */
+.Menu h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+.Menu span {
+  color: red;
+  cursor: pointer;
+}
+/* Card */
+
+.Menu .card {
+  margin-bottom: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.222);
+  transition: transform 0.3s ease;
+}
+
+.Menu .card:hover {
+  transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.803);
+
+}
+/* Button Group */
+.wide-button-group {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menuButton {
+  border: 2px solid red;
+  color: red;
+  padding: 12px 0;
+  width: 130px;
+  border-radius: 10px;
+  background: transparent;
+  font-weight: 500;
+  transition: 0.3s ease;
+  margin-bottom: 3%;
+}
+
+.menuButton:hover {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+/* Price span */
+.PriceSpan {
+  border: 2px solid red;
+  width: 80px;
+  text-align: center;
+  font-size: large;
+  font-weight: 500;
+  margin: 20px;
+  border-radius: 7px;
+  display: inline-block;
+  background: #fff;
+}
+
+.PriceSpan:hover {
+  color: white;
+  background-color: red;
+  transition: 0.3s ease;
+}
+
+/* Card title and content */
+.cardtitle {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Order Button */
+.orderButton {
+  border: 2px solid red;
+  color: red;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background: transparent;
+  transition: 0.3s;
+  font-size: 1rem;
+}
+
+.orderButton:hover {
+  background-color: #e64a19;
+  color: white;
+}
+/* Responsive tweaks */
+@media (max-width: 992px) {
+  .wide-button-group {
+    width: 100%;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .menuButton {
+    width: 120px;
+    font-size: 0.9rem;
+    padding: 10px 0;
+  }
+
+  .PriceSpan {
+    margin: 15px auto;
+    font-size: 1rem;
+  }
+
+  .cardtitle {
+    font-size: 1rem;
+  }
+
+  .orderButton {
+    padding: 8px 16px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .Menu h1 {
+    font-size: 1.6rem;
+    padding: 0 10px;
+  }
+ .Menu .card {
+    margin-bottom: 25px;
+  }
+  .menuButton {
+    width: 100%;
+  }
+
+  .wide-button-group {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .PriceSpan {
+    width: 70px;
+    font-size: 0.95rem;
+  }
+
+  .orderButton {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .Menu h1 {
+    font-size: 1.4rem;
+  }
+
+  .Menu .card {
+    margin-bottom: 20px;
+  }
+
+  .Menu .card-img-top {
+    height: auto;
+  }
+  .menuButton {
+    font-size: 0.85rem;
+    padding: 8px 0;
+  }
+
+  .PriceSpan {
+    font-size: 0.85rem;
+    width: 65px;
+  }
+
+  .orderButton {
+    font-size: 0.85rem;
+    padding: 6px 12px;
+  }
+}

@@ -1,0 +1,155 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page Container */
+.Orderpage {
+  background: linear-gradient(135deg, #f9fbe7, #4dae89);
+  padding: 40px 20px 60px;
+  
+}
+
+/* Heading */
+.Orderpage h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.Orderpage span {
+  color: red;
+  cursor: pointer;
+}
+
+/* Order Image */
+.order-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  display: block;
+}
+
+/* Order Info Section */
+.order-info {
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.order-info h2 {
+  font-size: 1.6rem;
+  color: #d84315;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.order-info p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* Input Fields and Textarea */
+.inputtype,
+.textarea {
+  width: 90%;
+  max-width: 500px;
+  padding: 12px 15px;
+  margin: 10px auto;
+  display: block;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.3s;
+  
+}
+
+.inputtype:focus,
+.textarea:focus {
+  border-color: #4dae89;
+   outline: none;
+  box-shadow: 0 0 5px rgba(44, 62, 80, 0.5);
+}
+
+/* Textarea */
+.textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+/* Submit Button */
+.homebutton {
+  border: 2px solid red;
+  color: red;
+  padding: 12px 20px;
+  border-radius: 10px;
+  background: transparent;
+  transition: 0.3s ease;
+  font-size: 1rem;
+  display: block;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 500px;
+  cursor: pointer;
+}
+
+.homebutton:hover {
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+/* Responsive Layout */
+@media (max-width: 992px) {
+  .Orderpage h1 {
+    font-size: 2rem;
+  }
+
+  .order-info h2 {
+    font-size: 1.4rem;
+  }
+
+  .order-info p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .Orderpage h1 {
+    font-size: 1.8rem;
+  }
+
+  .order-image {
+    margin-bottom: 15px;
+  }
+
+  .inputtype,
+  .textarea,
+  .homebutton {
+    width: 95%;
+  }
+}
+
+@media (max-width: 576px) {
+  .order-info {
+    padding: 20px 15px;
+  }
+
+  .order-info h2 {
+    font-size: 1.3rem;
+  }
+
+  .order-info p {
+    font-size: 0.9rem;
+  }
+}

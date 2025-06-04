@@ -1,0 +1,103 @@
+/* General Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+/* Main Container Styling */
+.Contact {
+  background: linear-gradient(135deg, #f9fbe7, #4dae89);
+}
+.minidiv {
+  padding: 30px;
+  width: 100%;
+  max-width: 50%;
+  margin: 5% auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(44, 62, 80, 0.826);
+}
+
+/* Heading Styling */
+.minidiv h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 3%;
+  color: #333;
+}
+
+/* Input Styling */
+.minidiv input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  background-color: #fff;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.minidiv input:focus {
+  border-color: #4dae89;
+  outline: none;
+  box-shadow: 0 0 5px rgba(44, 62, 80, 0.5);
+}
+/* TextArea Styling */
+.minidiv textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+.minidiv textarea:focus {
+  outline: none;
+  border-color: #4dae89;
+
+  box-shadow: 0 0 5px rgba(44, 62, 80, 0.5);
+}
+
+/* Button Styling */
+.minidiv button {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0px;
+  border: 2px solid red;
+  color: red;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+  background: transparent;
+}
+
+/* Button Hover Styling */
+.minidiv button:hover {
+  background-color: #e64a19;
+  color: white;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 992px) {
+  .minidiv {
+    margin-top: 5%;
+    padding: 25px;
+    max-width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .minidiv {
+    max-width: 75%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .minidiv {
+    padding: 20px;
+    max-width: 95%;
+  }
+}
