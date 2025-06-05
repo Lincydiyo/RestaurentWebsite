@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Restaurent-Website/static/css/main.816ceb85.css",
+    "main.css": "/Restaurent-Website/static/css/main.6efbe706.css",
     "main.js": "/Restaurent-Website/static/js/main.65f49a18.js",
     "static/js/488.712c729a.chunk.js": "/Restaurent-Website/static/js/488.712c729a.chunk.js",
     "static/media/cookies.png": "/Restaurent-Website/static/media/cookies.25e6cba70ea5d2c3fe1a.png",
@@ -33,12 +33,12 @@
     "static/media/breadSandwitch.jpg": "/Restaurent-Website/static/media/breadSandwitch.c3f01f02146f8e35d51a.jpg",
     "static/media/payment.webp": "/Restaurent-Website/static/media/payment.fbef8beac58e58b4c4ce.webp",
     "index.html": "/Restaurent-Website/index.html",
-    "main.816ceb85.css.map": "/Restaurent-Website/static/css/main.816ceb85.css.map",
+    "main.6efbe706.css.map": "/Restaurent-Website/static/css/main.6efbe706.css.map",
     "main.65f49a18.js.map": "/Restaurent-Website/static/js/main.65f49a18.js.map",
     "488.712c729a.chunk.js.map": "/Restaurent-Website/static/js/488.712c729a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.816ceb85.css",
+    "static/css/main.6efbe706.css",
     "static/js/main.65f49a18.js"
   ]
 }
